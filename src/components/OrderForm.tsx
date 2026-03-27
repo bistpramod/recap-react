@@ -5,7 +5,12 @@ interface OrderFormProps {
 }
 
 function OrderForm({ onSubmit }: OrderFormProps) {
-  return <div>OrderForm</div>;
+    const [name, setName] = useState<string>("Pizza");
+    const [cups,setCups] = useState<number>(1);
+  return <form onSubmit= {handleSubmit}>
+    <label >Chai name</label>
+    <input value ={name} onChange= {[(e: React.ChangeEvent<HTMLInputElement>) => setName(e.target.value)]} />
+  </form>
 }
 
 export default OrderForm;
