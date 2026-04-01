@@ -60,3 +60,14 @@ export default defineConfig([
     },
   },
 ])
+
+Additional React ESLint Rules
+
+You can also install additional ESLint plugins that provide React-specific linting rules.
+
+Recommended plugins:
+
+eslint-plugin-react-x – improved React lint rules
+eslint-plugin-react-dom – rules related to React DOM usage
+
+Example configuration:
