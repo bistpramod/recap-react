@@ -95,3 +95,6 @@ export default defineConfig([
     },
   },
 ])
+
+
+/// pending to add the other features
